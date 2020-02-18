@@ -37,4 +37,12 @@ public class TestGreeter {
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
+  
+    @Test
+  public void testingPollSCMGreet() {
+    String someone = "WE ARE TESTING POLL SCM #1";
+
+    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
+  }
+  
 }
